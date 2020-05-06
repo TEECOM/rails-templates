@@ -161,6 +161,8 @@ $ bundle exec rails s
 And go to `http://localhost:3000` in your browser. You should see a pretty
 bland page that says "Welcome".
 
+<img width="1188" alt="image" src="https://user-images.githubusercontent.com/784253/81198648-5a814680-8f87-11ea-9b58-7a8d6ee423f0.png">
+
 Open up `app/views/layouts/application.html.erb` and adjust the opening body
 tag to look like this:
 
@@ -169,6 +171,8 @@ tag to look like this:
 ```
 
 Refresh the page and... Dark mode! I like your style! :sparkles:
+
+<img width="1182" alt="image" src="https://user-images.githubusercontent.com/784253/81198788-7dabf600-8f87-11ea-9c94-b1f5eb7d707f.png">
 
 Now open `app/views/pages/home.html.erb` and adjust the contents to look like:
 
@@ -179,3 +183,5 @@ Now open `app/views/pages/home.html.erb` and adjust the contents to look like:
 ```
 
 Refresh the page and see the results!
+
+<img width="1184" alt="image" src="https://user-images.githubusercontent.com/784253/81198901-a03e0f00-8f87-11ea-9a70-8871de7adae7.png">
